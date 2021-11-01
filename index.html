@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+	box-sizing: border-box;
+    
+            }
+
+    html {
+        margin: 0;
+    }
+
+    body {
+        display: flex;
+        
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .div1 {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        float: left;
+        margin: 1%;
+        width: 30%;
+        
+        
+    }
+
+    img {
+        width: 100%;
+    }
+
+
+    @media (min-width: 420px) and (max-width: 679px) {
+
+        div {
+            width: 46%;
+        }        
+
+        .div3 {
+           
+            width: 96%;
+        }
+    }
+
+    @media (max-width: 419px) {
+        div {
+            width: 96%;
+        }
+    }
+
+    .div2 {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+    }
+
+    
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <img  src="ron-mueck-1.JPG" alt="Minha Figura">	
+        <h1 >Lorem ipsum dolor sit amet</h1>
+        <p >
+            Nulla facilisi. Duis vehicula tortor in ante feugiat ullamcorper. Aliquam quis faucibus massa. Pellentesque in rutrum urna, ac luctus libero. Praesent vestibulum at tellus vitae eleifend. Fusce bibendum purus vel eros lacinia congue. Quisque sit amet nisi eu arcu auctor faucibus in quis enim. Quisque vestibulum nibh et hendrerit pharetra.
+        </p>
+    </div>
+
+    <div class="div1">
+        <img  src="ron-mueck-2.JPG" alt="Minha Figura">	
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <p >
+            Nulla facilisi. Duis vehicula tortor in ante feugiat ullamcorper. Aliquam quis faucibus massa. Pellentesque in rutrum urna, ac luctus libero. Praesent vestibulum at tellus vitae eleifend. Fusce bibendum purus vel eros lacinia congue. Quisque sit amet nisi eu arcu auctor faucibus in quis enim. Quisque vestibulum nibh et hendrerit pharetra.
+        </p>
+    </div>
+
+    <div class="div1">
+   <div> <img  src="ron-mueck-3.JPG" alt="Minha Figura"></div>
+      <div class="div2"> <h1 >Lorem ipsum dolor sit amet</h1>
+        <p >
+            Nulla facilisi. Duis vehicula tortor in ante feugiat ullamcorper. Aliquam quis faucibus massa. Pellentesque in rutrum urna, ac luctus libero. Praesent vestibulum at tellus vitae eleifend. Fusce bibendum purus vel eros lacinia congue. Quisque sit amet nisi eu arcu auctor faucibus in quis enim. Quisque vestibulum nibh et hendrerit pharetra.
+        </p></div>
+    </div>
+
+</body>
+</html>
